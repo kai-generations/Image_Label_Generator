@@ -1,4 +1,4 @@
-# This is the provider confiuration; it is told to use aws from the terraform.tf file
+# This is the provider configuration; it is told to use aws from the terraform.tf file
 provider "aws" {
   # This sets the region to be used in AWS
   region = "us-east-1"
