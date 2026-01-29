@@ -16,7 +16,7 @@ resource "aws_s3_object" "street_view" {
   bucket = aws_s3_bucket.label_bucket.id
   # The object uploaded will be given this name
   key = "busy_street.jpg"
-  # the object'r original name and location; it is in the same folder as the terraform files
+  # the object's original name and location; it is in the same folder as the terraform files
   source = "city_street.jpg"
 }
 
