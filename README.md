@@ -4,6 +4,10 @@
 
 This project takes an image from an S3 bucket and uses a Python script to tell AWS Rekognition to scan the image and return the image with items such as people and objects identified with boxes and labeled.
 
+## Manual Process
+
+Feel free to use the Image_Label_Generator.md file to go through the manual process. It also contains extra notes and some final thoughts at the end of the document.
+
 ## Steps to run using Terraform
 
 The steps below are assuming you are using a Windows computer, have terraform and python already installed, and that your CLI has been configured to use a IAM user account with the AdministratorAccess policy attached.
